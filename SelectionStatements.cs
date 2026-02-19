@@ -29,7 +29,7 @@ namespace HelloWorld
 	    //if statements
 	    Console.WriteLine("Enter the number that corresponds with the day of the week ");
 	    //int day = Convert.ToInt32(Console.ReadLine()); //converts input to integer
-	    int day = int.Parse(Console.ReadLine()); //converts 
+	    int day = int.Parse(Console.ReadLine()); //converts input to integer
 	    // if (condition is true){}
 	    if (day == 1){ Console.WriteLine("Monday"); }
 	    if (day == 2){ Console.WriteLine("Tuesday"); }
@@ -39,8 +39,28 @@ namespace HelloWorld
 	    if (day == 6){ Console.WriteLine("Saturday"); }
 	    if (day == 7){ Console.WriteLine("Sunday"); }
 	    
+	    //switch-case method
+	    switch (day)
+	    {
+	      case 1: Console.WriteLine("Monday"); 
+	      break;
+	      case 2: Console.WriteLine("Tuesday");
+	      break;
+	      case 3: Console.WriteLine("Wednesday");
+	      break;
+	      case 4: Console.WriteLine("Thursday");
+	      break;
+	      case 5: Console.WriteLine("Friday");
+	      break;
+	      case 6: Console.WriteLine("Saturday");
+	      break;
+	      case 7: Console.WriteLine("Sunday");
+	      
+	      default: Console.WriteLine("Invalid input");
+	      break;
+	    }
 	    
-			
+	    
 		}
 	}
 }
