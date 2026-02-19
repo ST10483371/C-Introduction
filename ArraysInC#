@@ -14,7 +14,7 @@ namespace HelloWorld
 	      Console.WriteLine(matrix[i] + " ");
   	  }//end of for loop
   	  
-  	  Console.WriteLine("Values using foreach ")
+  	  Console.WriteLine("Values using foreach")
 			foreach (int i in matrix)
 			{ 
 		    Console.WriteLine("Values using foreach" + matrix[i]);
@@ -32,9 +32,8 @@ namespace HelloWorld
 	  {
 	    Console.Write(matrix[i, j] + " ");
 	  }
-		//t.Parse( Console.WriteLine(matrix[0][0]) );
 	  
 	  
 		} //end of main
 	}//end of class
-}
+}//end of package/namespace
